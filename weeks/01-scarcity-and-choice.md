@@ -17,14 +17,15 @@
 
 ## Reading
 
-- Mankiw, *Principles of Economics* — the ten principles and the micro chapters cover weeks 1-5
-- Mankiw, *Principles of Macroeconomics* — weeks 6-11
-- Chan S. Park, *Fundamentals of Engineering Economics* — weeks 12-14
-- Okka, *Mühendislik Ekonomisine Giriş* (TR), Nobel 2003
-- Samuelson & Nordhaus, *Economics*
-- Data: [TÜİK](https://www.tuik.gov.tr/), [Eurostat](https://ec.europa.eu/eurostat), [OECD Statistics](https://stats.oecd.org/)
+- [OpenStax — Ch. 1 (welcome to economics)](../resources/books/openstax-principles-of-economics-3e.pdf#page=25)
+- [OpenStax — Ch. 2 (choice in a world of scarcity)](../resources/books/openstax-principles-of-economics-3e.pdf#page=43)
 
-*None of these books are in this repository.*
+Also cited by the syllabus but not in this repository: Mankiw *Principles of
+Economics* / *Principles of Macroeconomics*, Chan S. Park *Fundamentals of
+Engineering Economics*, Okka *Mühendislik Ekonomisine Giriş* (TR), Samuelson &
+Nordhaus *Economics*.
+
+Data: [TÜİK](https://www.tuik.gov.tr/) · [Eurostat](https://ec.europa.eu/eurostat) · [OECD](https://stats.oecd.org/)
 
 ## Practice
 - [ ] Find a current Turkish economy example for this week's concepts

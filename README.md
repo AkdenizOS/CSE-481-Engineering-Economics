@@ -61,13 +61,24 @@ the engineering decision methods (weeks 12-14) are where the calculations are.
 
 ## Books
 
-None are in this repository. The syllabus cites:
+Two openly licensed textbooks are in this repository, and every reading link in
+`weeks/` opens one of them at the exact page.
 
-- Mankiw, *Principles of Economics* / *Principles of Macroeconomics* — weeks 1-11
-- Chan S. Park, *Fundamentals of Engineering Economics* — weeks 12-14
-- Okka, *Mühendislik Ekonomisine Giriş*, Nobel 2003 (TR)
-- Samuelson & Nordhaus, *Economics*
-- Statistics: Eurostat, OECD, TÜİK
+| Book | Covers | Licence |
+|------|--------|---------|
+| [OpenStax, *Principles of Economics* 3e](resources/books/openstax-principles-of-economics-3e.pdf) — 995 pp. | Weeks 1-11 | CC BY-NC-SA 4.0 |
+| [Schmid & Vanderby, *Engineering Economics*](resources/books/schmid-vanderby-engineering-economics.pdf) — 254 pp. | Weeks 12-14 | CC BY 4.0 |
+
+Neither is the syllabus's cited book, but between them they cover the whole course:
+OpenStax follows the same micro-then-macro path as Mankiw, and Schmid & Vanderby
+covers the time value of money and project evaluation that Chan S. Park does.
+
+Also cited by the syllabus, not here: Mankiw *Principles of Economics* /
+*Principles of Macroeconomics*, Chan S. Park *Fundamentals of Engineering
+Economics*, Okka *Mühendislik Ekonomisine Giriş* (TR), Samuelson & Nordhaus
+*Economics*.
+
+Statistics: [TÜİK](https://www.tuik.gov.tr/), [Eurostat](https://ec.europa.eu/eurostat), [OECD](https://stats.oecd.org/).
 
 ## Layout
 
