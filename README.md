@@ -95,9 +95,10 @@ Statistics: [TÜİK](https://www.tuik.gov.tr/), [Eurostat](https://ec.europa.eu/
 |------|-------------|------|
 | `weeks/NN-*.md` | **anyone** | Only when the course itself changes — a new topic, a better reading, a correction. Never for personal notes. |
 | `docs/*.md` | **anyone** | When you learn something durable: a new exam pattern, a better source. |
-| `terms/<your-term>/notes/week-NN.md` | **only you** | Every week. This is your notebook. |
-| `terms/<your-term>/` | **only you** | Your slides, labs, assignments, submissions. |
-| `exams/past/<term>/` | **anyone** | When you get hold of a new paper. |
+| `terms/<your-term>/people/<you>/notes/week-NN.md` | **only you** | Every week. This is your notebook. |
+| `terms/<your-term>/people/<you>/` | **only you** | Your assignments, projects, submissions. |
+| `terms/<your-term>/course/` | **anyone in that term** | Slides, syllabus and lab sheets the instructor issued. |
+| `exams/past/<term>/` | **anyone** | When you get hold of a new paper — blank or answered. Exam papers never go under `terms/`. |
 
 Two students in different years never touch the same file except to improve the
 shared plan — which is the point.
