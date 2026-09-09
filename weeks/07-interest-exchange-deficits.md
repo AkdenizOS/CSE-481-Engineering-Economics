@@ -36,12 +36,7 @@ Data: [TÜİK](https://www.tuik.gov.tr/) · [Eurostat](https://ec.europa.eu/euro
 - [ ] Lecture attended
 - [ ] Notes written
 
-## My notes
+---
 
-<!-- Lecture: what was actually covered. -->
-
-<!-- Examples given, especially Turkish economy ones. -->
-
-<!-- Questions to ask. -->
-
-<!-- Exam-worthy: definitions and formulas. -->
+Your own notes for this week go in `terms/<your-term>/notes/week-07.md`, not here.
+This file is the shared plan — improve it if the course changes, but keep it general.
