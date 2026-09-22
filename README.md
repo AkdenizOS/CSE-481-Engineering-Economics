@@ -20,7 +20,7 @@ in money terms.
 | Final | 1 | 40% |
 
 The project is worth more than the midterm. Start it early — see
-[`terms/undated/term-project/`](terms/undated/term-project/) for a worked example.
+[`assignments/undated-term-project/`](assignments/undated-term-project/) for a worked example.
 
 ## Weekly plan
 
@@ -57,7 +57,7 @@ the engineering decision methods (weeks 12-14) are where the calculations are.
 
 **4. Start the project early** — it is 30%, more than the midterm.
 
-**5. Write under `## My notes`** at the bottom of each week note.
+**5. Write under your own `## Notes — <Name> (<term>)` section** at the bottom of each week note — see [Taking notes](#taking-notes).
 
 ## Books
 
@@ -82,30 +82,57 @@ Statistics: [TÜİK](https://www.tuik.gov.tr/), [Eurostat](https://ec.europa.eu/
 
 ## Layout
 
-| Path | What it holds |
-|------|---------------|
-| [`weeks/`](weeks/) | The study plan, one note per week |
-| [`docs/`](docs/) | Glossary |
-| [`terms/`](terms/) | One folder per cohort — including a previous student's term project |
-| [`resources/`](resources/) | Syllabus PDF |
+```
+README.md        This page
+course-info.md   Resource map (books, week → chapter), Turkish ↔ English glossary
+weeks/NN-*.md    One file per week: the shared plan on top, everyone's notes below
+exams/           Past papers (none collected yet) and how to add one
+resources/       Syllabus PDF, books/
+assignments/     Term projects and other own work — including a previous student's project
+```
+
+## Taking notes
+
+Open the week, scroll to the bottom, write under your own heading:
+
+```markdown
+## Notes — <Name> (<term>)
+### Lecture
+### Worked out by hand
+### Questions
+### Exam-worthy
+```
+
+Add your heading below the existing ones and never edit someone else's section —
+different sections merge in git without conflicts.
 
 ## Who changes what
 
-| File | Who edits it | When |
+| What | Who edits it | When |
 |------|-------------|------|
-| `weeks/NN-*.md` | **anyone** | Only when the course itself changes — a new topic, a better reading, a correction. Never for personal notes. |
-| `docs/*.md` | **anyone** | When you learn something durable: a new exam pattern, a better source. |
-| `terms/<your-term>/people/<you>/notes/week-NN.md` | **only you** | Every week. This is your notebook. |
-| `terms/<your-term>/people/<you>/` | **only you** | Your assignments, projects, submissions. |
-| `terms/<your-term>/course/` | **anyone in that term** | Slides, syllabus and lab sheets the instructor issued. |
-| `exams/past/<term>/` | **anyone** | When you get hold of a new paper — blank or answered. Exam papers never go under `terms/`. |
+| Top of `weeks/NN-*.md` (goals, reading, practice) | **anyone** | Only when the course itself changes — a new topic, a better reading, a correction. |
+| `## Notes — <you>` in a week file | **only you** | Every week. This is your notebook. |
+| `course-info.md`, `exams/README.md` | **anyone** | When you learn something durable: a new exam pattern, a better source. |
+| `assignments/<term>-<you>/` | **only you** | Your assignments, projects, submissions. |
+| `resources/<term>/` | **anyone in that term** | Slides, syllabus and lab sheets the instructor issued. |
+| `exams/` | **anyone** | When you get hold of a new paper — blank or answered. Put the writer's surname in the filename (`2026-2027-final-answered-<surname>.pdf`). Exam papers never go under `assignments/`. |
 
 Two students in different years never touch the same file except to improve the
 shared plan — which is the point.
 
 ## Contributing
 
-Create `terms/<YYYY>-<YYYY>-<term>/` with a `README.md` naming the instructor and
-dates, and put your project and notes there. Keep `weeks/` and `docs/` general.
+Add your term to the table below with the instructor and dates, write your notes in
+the week files, and put your project under `assignments/<term>-<you>/`. Keep the
+shared plan in `weeks/` and `course-info.md` general.
 
 Previous students' work is here as **reference**, not to hand in.
+
+## Terms
+
+| Term | Instructor | Schedule | Midterm | Final | Notes |
+|------|-----------|----------|---------|-------|-------|
+| Fall 2026-2027 | TBD — fill in during week 1 | TBD | TBD | TBD | Efe — in every week file; project to come |
+| Undated | — | — | — | — | A completed term project by a previous student: [`assignments/undated-term-project/`](assignments/undated-term-project/) |
+
+Grading in Fall 2026-2027: Midterm 20% · Quiz 10% · Project 30% · Final 40%.

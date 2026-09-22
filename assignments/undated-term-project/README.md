@@ -1,8 +1,10 @@
-# Undated
+# Term Project
+
+[NSE India](https://www.kaggle.com/datasets/rohanrao/nifty50-stock-market-data) data source includes open, close, high, and low prices.
+
+## About this archive copy
 
 Work by a previous student whose term is not recorded.
-
-## `term-project/`
 
 A stock market technical-analysis project on NSE India (Nifty 50) data.
 
