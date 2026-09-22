@@ -14,9 +14,11 @@ bookmarks, so the pages are exact.
 | [`openstax-principles-of-economics-3e.pdf`](resources/books/openstax-principles-of-economics-3e.pdf) | OpenStax, *Principles of Economics* 3e, 995 pp. | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
 | [`schmid-vanderby-engineering-economics.pdf`](resources/books/schmid-vanderby-engineering-economics.pdf) | Schmid, B. & Vanderby, S., *Engineering Economics*, [SaskOER](https://www.saskoer.ca/engecon/), 254 pp. | CC BY 4.0 |
 
-### Week → chapter
+### Syllabus topic → chapter
 
-| Week | Topic | Source |
+For the official syllabus topics in [`syllabus-topics.md`](syllabus-topics.md).
+
+| # | Topic | Source |
 |------|-------|--------|
 | 1 | Scarcity, opportunity cost | OpenStax Ch. 1, 2 |
 | 2 | Production factors, sectors | OpenStax Ch. 2, 7 |
@@ -41,6 +43,20 @@ flow material is general and applies anywhere.
 
 [`assignments/undated-term-project/`](assignments/undated-term-project/) — a previous
 student's stock market technical-analysis project. Read it before starting yours.
+
+### Fall 2026-2027 instructor material
+
+| File | What it is |
+|------|-----------|
+| [`week-01-bist-python-mcp.pdf`](resources/2026-2027-fall/week-01-bist-python-mcp.pdf) | Week 1 — BIST 100 financial analytics with Python & MCP AI agents; course roadmap and grading |
+| [`week-02-agentic-harness.pdf`](resources/2026-2027-fall/week-02-agentic-harness.pdf) | Week 2 — the agentic harness: result + why + risks + human review |
+| [`term-project-brief.pdf`](resources/2026-2027-fall/term-project-brief.pdf) | Term project brief, 16 pp. |
+| [`papers/`](resources/2026-2027-fall/papers/) | Three agent-harness papers: Meta-Harness (arXiv 2603.28052), Code as Agent Harness (2605.18747), Harness-G (2607.27652) |
+| [`code/`](resources/2026-2027-fall/code/) | Starter scripts for project scenarios 2 (THYAO weekday patterns) and 3 (technical reversal events) |
+
+Data sources used in the course: [Yahoo Finance](https://finance.yahoo.com/) (`yfinance`),
+[Fintables](https://fintables.com/), [TCMB EVDS](https://evds3.tcmb.gov.tr/),
+[TÜİK](https://www.tuik.gov.tr/), [Federal Reserve](https://www.federalreserve.gov/monetarypolicy/openmarket.htm).
 
 ## Glossary — Turkish ↔ English
 

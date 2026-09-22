@@ -2,13 +2,17 @@
 
 Akdeniz University · Computer Engineering (English) · Semester 7
 
-**An open study archive for this course.** A week-by-week plan built from the
-official syllabus, plus a completed term project from a previous student to show
-what one looks like.
+**An open study archive for this course.** A week-by-week plan following the
+2026-2027 instructor's roadmap, the instructor's slides, project brief and starter
+code, the official syllabus topics, and a completed term project from a previous
+student.
 
-The course is two halves: **weeks 1-11 are general economics** (micro then macro),
-**weeks 12-14 are engineering economics proper** — evaluating design alternatives
-in money terms.
+**Instructor (Fall 2026-2027):** Dr. Alper Özcan · Course communication on Microsoft Teams
+
+The 2026-2027 course is **BIST 100 financial analytics with Python and MCP AI
+agents**: market data → indicators → support/resistance → backtest → AI agent. The
+official syllabus's economics topics are kept in
+[`syllabus-topics.md`](syllabus-topics.md) as written-exam background.
 
 ## Grading
 
@@ -19,55 +23,74 @@ in money terms.
 | Term project | 1 | 30% |
 | Final | 1 | 40% |
 
-The project is worth more than the midterm. Start it early — see
-[`assignments/undated-term-project/`](assignments/undated-term-project/) for a worked example.
+Midterm: written exam covering core concepts · Quiz: short checks for weekly learning ·
+Project: must be implemented in Python · Final: comprehensive.
+
+## Term project — 30%
+
+**Integrated BIST 100 Agentic Financial Analytics Harness** —
+[project brief](resources/2026-2027-fall/term-project-brief.pdf) (Dr. Alper Özcan).
+
+- **Due November 24, 2026, 23:59** on Teams (multiple submissions allowed).
+- Proposal + final report; groups of two are allowed; Python.
+- Build an educational analysis system for a 30-stock BIST 100 universe that combines
+  deterministic Python tools, multiple evidence sources, backtest verification and a
+  controlled MCP AI-agent workflow — not a single prediction model.
+- Four mandatory research scenarios: sector laggard / catch-up, weekday and multi-day
+  patterns, technical reversal events, quarterly fundamentals and price reaction.
+- *LLM reasons and explains. Python tools calculate. The harness controls. Backtests
+  verify. Evidence is logged. A human makes the final decision.* Strictly educational:
+  no broker connection, no real orders, no investment advice.
+- Starter code: [`scenario2_thyao_weekday_patterns.py`](resources/2026-2027-fall/code/scenario2_thyao_weekday_patterns.py),
+  [`scenario3_technical_reversal_events_3_periods.py`](resources/2026-2027-fall/code/scenario3_technical_reversal_events_3_periods.py).
+- A previous student's stock technical-analysis project:
+  [`assignments/undated-term-project/`](assignments/undated-term-project/).
 
 ## Weekly plan
 
+From the instructor's roadmap in the [week 1 slides](resources/2026-2027-fall/week-01-bist-python-mcp.pdf).
+
 | # | Topic | Note |
 |---|-------|------|
-| 1 | Scarcity, trade-offs, opportunity cost | [weeks/01](weeks/01-scarcity-and-choice.md) |
-| 2 | Production factors and economic sectors | [weeks/02](weeks/02-production-and-sectors.md) |
-| 3 | Trade, competition, economic systems | [weeks/03](weeks/03-trade-and-markets.md) |
-| 4 | Supply, demand, market failure | [weeks/04](weeks/04-supply-demand-market-failure.md) |
-| 5 | Living standards and productivity | [weeks/05](weeks/05-living-standards-productivity.md) |
-| 6 | Money, inflation, unemployment | [weeks/06](weeks/06-money-inflation-unemployment.md) |
-| 7 | Interest rates, exchange rates, deficits | [weeks/07](weeks/07-interest-exchange-deficits.md) |
-| 8 | Monetary policy and productivity measures | [weeks/08](weeks/08-monetary-policy-productivity.md) |
-| 9 | Production possibilities and efficiency | [weeks/09](weeks/09-production-possibilities.md) |
-| 10 | Markets, monetary and fiscal policy | [weeks/10](weeks/10-markets-and-policy.md) |
-| 11 | International finance | [weeks/11](weeks/11-international-finance.md) |
-| 12 | The engineering decision-making process | [weeks/12](weeks/12-engineering-decision-making.md) |
-| 13 | The engineer's role in business | [weeks/13](weeks/13-engineers-in-business.md) |
-| 14 | Real-world engineering economic decisions | [weeks/14](weeks/14-real-world-decisions.md) |
+| 1 | BIST 100 and Yahoo Finance | [weeks/01](weeks/01-bist-100-and-yahoo-finance.md) |
+| 2 | Algorithmic Trading and the Agentic Harness | [weeks/02](weeks/02-algorithmic-trading-and-agentic-harness.md) |
+| 3 | Technical Indicators | [weeks/03](weeks/03-technical-indicators.md) |
+| 4 | Backtesting Strategies | [weeks/04](weeks/04-backtesting-strategies.md) |
+| 5 | Time Series with Pandas | [weeks/05](weeks/05-time-series-with-pandas.md) |
+| 6 | Lab: BIST Data | [weeks/06](weeks/06-lab-bist-data.md) |
+| 7 | Lab: Support and Resistance | [weeks/07](weeks/07-lab-support-and-resistance.md) |
+| 8 | Midterm | [weeks/08](weeks/08-midterm.md) |
+| 9 | Engineering Economics Concepts | [weeks/09](weeks/09-engineering-economics-concepts.md) |
+| 10 | Fundamental Analysis and Valuation | [weeks/10](weeks/10-fundamental-analysis-and-valuation.md) |
+| 11 | Money Management | [weeks/11](weeks/11-money-management.md) |
+| 12 | MCP AI Agent | [weeks/12](weeks/12-mcp-ai-agent.md) |
+| 13 | Project Presentations I | [weeks/13](weeks/13-project-presentations-i.md) |
+| 14 | Project Presentations II | [weeks/14](weeks/14-project-presentations-ii.md) |
 
 ## How to study with this repository
 
-**1. Open the week you are on** in [`weeks/`](weeks/). This course is definitional —
-each note lists the terms in bold with a one-line meaning. If you can define every
-bolded term in a week, you know that week.
+**1. Open the week you are on** in [`weeks/`](weeks/): goals, key concepts from the
+slides, readings, and a practice list with the code to run.
 
-**2. Tie every concept to a real example.** The syllabus explicitly says the Turkish
-economy is used throughout. Inflation, exchange rates and the TCMB are in the news
-daily; use them. [TÜİK](https://www.tuik.gov.tr/) has the data.
+**2. Run the code.** Everything in this course is Python — `pip install yfinance pandas
+matplotlib` in a virtual environment and reproduce the slide examples.
 
-**3. Watch the three computational bits.** Most of the course is verbal, but
-productivity formulas (week 8), the production possibilities curve (week 9), and
-the engineering decision methods (weeks 12-14) are where the calculations are.
+**3. Start the project early** — it is 30%, more than the midterm, and due November 24.
 
-**4. Start the project early** — it is 30%, more than the midterm.
+**4. For the written exams**, the official economics topics are in
+[`syllabus-topics.md`](syllabus-topics.md) with book links at the exact page.
 
 **5. Write under your own `## Notes — <Name> (<term>)` section** at the bottom of each week note — see [Taking notes](#taking-notes).
 
 ## Books
 
-Two openly licensed textbooks are in this repository, and every reading link in
-`weeks/` opens one of them at the exact page.
+Two openly licensed textbooks are in this repository; every reading link in
+[`syllabus-topics.md`](syllabus-topics.md) opens one of them at the exact page.
 
 | Book | Covers | Licence |
 |------|--------|---------|
-| [OpenStax, *Principles of Economics* 3e](resources/books/openstax-principles-of-economics-3e.pdf) — 995 pp. | Weeks 1-11 | CC BY-NC-SA 4.0 |
-| [Schmid & Vanderby, *Engineering Economics*](resources/books/schmid-vanderby-engineering-economics.pdf) — 254 pp. | Weeks 12-14 | CC BY 4.0 |
+| [OpenStax, *Principles of Economics* 3e](resources/books/openstax-principles-of-economics-3e.pdf) — 995 pp. | Syllabus topics 1-11 | CC BY-NC-SA 4.0 |
+| [Schmid & Vanderby, *Engineering Economics*](resources/books/schmid-vanderby-engineering-economics.pdf) — 254 pp. | Syllabus topics 12-14, week 9 | CC BY 4.0 |
 
 Neither is the syllabus's cited book, but between them they cover the whole course:
 OpenStax follows the same micro-then-macro path as Mankiw, and Schmid & Vanderby
@@ -84,10 +107,11 @@ Statistics: [TÜİK](https://www.tuik.gov.tr/), [Eurostat](https://ec.europa.eu/
 
 ```
 README.md        This page
-course-info.md   Resource map (books, week → chapter), Turkish ↔ English glossary
+course-info.md   Resource map (books, syllabus topic → chapter), Turkish ↔ English glossary
+syllabus-topics.md  The official syllabus's 14 economics topics, with book links
 weeks/NN-*.md    One file per week: the shared plan on top, everyone's notes below
 exams/           Past papers (none collected yet) and how to add one
-resources/       Syllabus PDF, books/
+resources/       Syllabus PDF, books/, 2026-2027-fall/ (slides, project brief, papers/, code/)
 assignments/     Term projects and other own work — including a previous student's project
 ```
 
@@ -98,7 +122,7 @@ Open the week, scroll to the bottom, write under your own heading:
 ```markdown
 ## Notes — <Name> (<term>)
 ### Lecture
-### Worked out by hand
+### Code
 ### Questions
 ### Exam-worthy
 ```
@@ -110,7 +134,7 @@ different sections merge in git without conflicts.
 
 | What | Who edits it | When |
 |------|-------------|------|
-| Top of `weeks/NN-*.md` (goals, reading, practice) | **anyone** | Only when the course itself changes — a new topic, a better reading, a correction. |
+| Top of `weeks/NN-*.md` and `syllabus-topics.md` | **anyone** | Only when the course itself changes — a new topic, a better reading, a correction. |
 | `## Notes — <you>` in a week file | **only you** | Every week. This is your notebook. |
 | `course-info.md`, `exams/README.md` | **anyone** | When you learn something durable: a new exam pattern, a better source. |
 | `assignments/<term>-<you>/` | **only you** | Your assignments, projects, submissions. |
@@ -133,7 +157,7 @@ Previous students' work is here as **reference**, not to hand in.
 
 | Term | Instructor | Schedule | Midterm | Final | Notes |
 |------|-----------|----------|---------|-------|-------|
-| Fall 2026-2027 | TBD — fill in during week 1 | TBD | TBD | TBD | Efe — in every week file; project to come |
+| Fall 2026-2027 | Dr. Alper Özcan | TBD | Week 8 | TBD | Slides, project brief, papers and starter code in [`resources/2026-2027-fall/`](resources/2026-2027-fall/); project due Nov 24, 2026; Efe — in every week file |
 | Undated | — | — | — | — | A completed term project by a previous student: [`assignments/undated-term-project/`](assignments/undated-term-project/) |
 
 Grading in Fall 2026-2027: Midterm 20% · Quiz 10% · Project 30% · Final 40%.

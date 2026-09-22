@@ -4,6 +4,19 @@ Past papers sit in this folder as `<year>-<type>.pdf`.
 
 Empty. No papers from previous cohorts have been collected for this course yet.
 
+## Fall 2026-2027
+
+| Exam | Weight | When | Format |
+|------|--------|------|--------|
+| Quiz | 10% | during term | Short checks for weekly learning |
+| Midterm | 20% | Week 8 | Written exam covering core concepts |
+| Final | 40% | Finals period | Comprehensive final examination |
+
+Core concepts come from the [weekly slides](../weeks/) and the project's key
+distinctions: prediction ≠ profitable strategy, correlation ≠ causation, backtest ≠
+future guarantee, historical evidence ≠ investment advice, LLM confidence ≠
+statistical probability. Economics background: [syllabus topics](../syllabus-topics.md).
+
 ## Adding a paper
 
 Name it after the academic year it was sat:
