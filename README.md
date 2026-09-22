@@ -125,6 +125,7 @@ shared plan — which is the point.
 Add your term to the table below with the instructor and dates, write your notes in
 the week files, and put your project under `assignments/<term>-<you>/`. Keep the
 shared plan in `weeks/` and `course-info.md` general.
+Use a lowercase, hyphenated name in folder names — `efe-kurucay`, not `Efe Kuruçay`.
 
 Previous students' work is here as **reference**, not to hand in.
 
