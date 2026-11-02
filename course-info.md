@@ -50,6 +50,11 @@ student's stock market technical-analysis project. Read it before starting yours
 |------|-----------|
 | [`week-01-bist-python-mcp.pdf`](resources/2026-2027-fall/week-01-bist-python-mcp.pdf) | Week 1 — BIST 100 financial analytics with Python & MCP AI agents; course roadmap and grading |
 | [`week-02-agentic-harness.pdf`](resources/2026-2027-fall/week-02-agentic-harness.pdf) | Week 2 — the agentic harness: result + why + risks + human review |
+| [`week-03-bist-trading-strategies.pdf`](resources/2026-2027-fall/week-03-bist-trading-strategies.pdf) | Week 3 — BIST trading strategies |
+| [`week-05-engineering-economics-analysis.pdf`](resources/2026-2027-fall/week-05-engineering-economics-analysis.pdf) | Week 5 — feasibility, costs, TVM, cash flows and interest; 45 pp. |
+| [`week-05-engineering-economics-computer-engineers.pdf`](resources/2026-2027-fall/week-05-engineering-economics-computer-engineers.pdf) | Week 5 — computer-engineering examples; 22 pp. |
+| [`week-06-economic-equivalence.pdf`](resources/2026-2027-fall/week-06-economic-equivalence.pdf) | Week 6 — single, equal and uneven cash flows; factor tables; 69 pp. |
+| [`midterm-announcement.md`](resources/2026-2027-fall/midterm-announcement.md) | Instructor Teams notice: 7 MCQs, 40 minutes, calculator and table rules |
 | [`term-project-brief.pdf`](resources/2026-2027-fall/term-project-brief.pdf) | Term project brief, 16 pp. |
 | [`papers/`](resources/2026-2027-fall/papers/) | Three agent-harness papers: Meta-Harness (arXiv 2603.28052), Code as Agent Harness (2605.18747), Harness-G (2607.27652) |
 | [`code/`](resources/2026-2027-fall/code/) | Starter scripts for project scenarios 2 (THYAO weekday patterns) and 3 (technical reversal events) |
@@ -57,6 +62,10 @@ student's stock market technical-analysis project. Read it before starting yours
 Data sources used in the course: [Yahoo Finance](https://finance.yahoo.com/) (`yfinance`),
 [Fintables](https://fintables.com/), [TCMB EVDS](https://evds3.tcmb.gov.tr/),
 [TÜİK](https://www.tuik.gov.tr/), [Federal Reserve](https://www.federalreserve.gov/monetarypolicy/openmarket.htm).
+
+The [midterm study guide](exams/midterm-preparation.md) adds the W5–W6
+engineering-economics vocabulary and factor-selection card. The
+[resource inventory](resources/2026-2027-fall/README.md) records the Teams imports.
 
 ## Glossary — Turkish ↔ English
 

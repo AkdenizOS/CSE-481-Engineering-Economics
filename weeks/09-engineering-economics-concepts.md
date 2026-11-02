@@ -2,6 +2,13 @@
 
 **Previous:** [Week 8](08-midterm.md) · **Next:** [Week 10](10-fundamental-analysis-and-valuation.md)
 
+## Foundations and further reading
+
+For engineering economics and equivalence foundations, use the
+[W5 note](05-time-series-with-pandas.md), [W6 note](06-lab-bist-data.md) and
+[midterm guide](../exams/midterm-preparation.md). Further book topics extend the
+slide material; their full inclusion in the midterm has not been announced.
+
 ## Reading
 - Slides: add when shared on Teams
 - Official syllabus background: [engineering decision-making](../syllabus-topics.md#topic-12--the-engineering-decision-making-process), [the engineer's role in business](../syllabus-topics.md#topic-13--the-engineers-role-in-business), [real-world decisions](../syllabus-topics.md#topic-14--real-world-engineering-economic-decisions)

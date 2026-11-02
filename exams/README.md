@@ -2,17 +2,28 @@
 
 Past papers sit in this folder as `<year>-<type>.pdf`.
 
-Empty. No papers from previous cohorts have been collected for this course yet.
+No papers from previous cohorts have been collected for this course yet.
+The [midterm preparation guide](midterm-preparation.md) is student-created study
+material, not a past paper.
 
 ## Fall 2026-2027
 
 | Exam | Weight | When | Format |
 |------|--------|------|--------|
 | Quiz | 10% | during term | Short checks for weekly learning |
-| Midterm | 20% | Week 8 | Written exam covering core concepts |
+| Midterm | 20% | Week 8 | 7 multiple-choice questions · 40 minutes |
 | Final | 40% | Finals period | Comprehensive final examination |
 
-Core concepts come from the [weekly slides](../weeks/) and the project's key
+The [instructor announcement](../resources/2026-2027-fall/midterm-announcement.md)
+allows personal calculators but forbids sharing; provides an interest factor table
+and some Turkish terminology; and says no extra paper will be provided. Exact
+question topics and their distribution were not announced.
+
+W5–W6 cover costs, feasibility, simple/compound interest and economic equivalence
+(single, equal and uneven flows). The [study guide](midterm-preparation.md) starts
+with these concepts and leads to factor-table practice and a timed test.
+
+Other concepts come from the [weekly slides](../weeks/) and the project's key
 distinctions: prediction ≠ profitable strategy, correlation ≠ causation, backtest ≠
 future guarantee, historical evidence ≠ investment advice, LLM confidence ≠
 statistical probability. Economics background: [syllabus topics](../syllabus-topics.md).

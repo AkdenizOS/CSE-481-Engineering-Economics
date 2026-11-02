@@ -11,6 +11,9 @@ student.
 
 The 2026-2027 course is **BIST 100 financial analytics with Python and MCP AI
 agents**: market data → indicators → support/resistance → backtest → AI agent. The
+**Weeks 5–6 cover engineering economics and economic equivalence:** feasibility,
+costs, interest and cash-flow comparison. Start with the
+[midterm study guide](exams/midterm-preparation.md). The
 official syllabus's economics topics are kept in
 [`syllabus-topics.md`](syllabus-topics.md) as written-exam background.
 
@@ -23,7 +26,10 @@ official syllabus's economics topics are kept in
 | Term project | 1 | 30% |
 | Final | 1 | 40% |
 
-Midterm: written exam covering core concepts · Quiz: short checks for weekly learning ·
+Midterm: **7 multiple-choice questions in 40 minutes**; own calculator allowed
+(no sharing), interest factor table and some Turkish terminology provided, no extra
+paper. [Instructor announcement](resources/2026-2027-fall/midterm-announcement.md).
+Quiz: short checks for weekly learning ·
 Project: must be implemented in Python · Final: comprehensive.
 
 ## Term project — 30%
@@ -46,9 +52,56 @@ Project: must be implemented in Python · Final: comprehensive.
 - A previous student's stock technical-analysis project:
   [`assignments/undated-term-project/`](assignments/undated-term-project/).
 
+Instructor's answers on Teams:
+- **Team size:** individually or in groups of two.
+- **Data source:** Yahoo Finance / yfinance is only the example. Any reliable, legally
+  accessible source is fine; document the source, the date range, the adjustments
+  applied and how missing data is handled.
+- **News and speech layer:** part of the architecture. KAP disclosures suit
+  company-specific events well because they carry official disclosure timestamps
+  (financial results, material events, disclosure dates). Speech-to-text may stay small,
+  on selected, instructor-approved examples. Text is timestamped contextual evidence,
+  not a replacement for numerical financial data.
+- **TMS 29 (inflation accounting):** non-bank companies report under TMS 29 after 2024,
+  so mixing older nominal statements with the inflation-adjusted ones is misleading.
+  Keep the main analysis on post-TMS 29 periods that are consistent with each other;
+  tests may use data from 1 January 2025 to November 2026.
+- **Model for the harness experiments:** no LLM is mandatory. Keep one model fixed and
+  compare the architecture stages: Raw LLM → LLM + Tools → Tools + Stateful Harness →
+  + Evidence/Quality Gate → + Memory + Human Review. The question is how much more
+  reliable and reproducible the system gets at each stage, not which LLM is better.
+- **Harness papers:** [`resources/2026-2027-fall/papers/`](resources/2026-2027-fall/papers/).
+
+## Quiz — 10%
+
+**BIST Algorithmic Trading Challenge** —
+[brief](resources/2026-2027-fall/quiz-bist-algo-trading-challenge.pdf): a Python
+backtesting assignment, open on Teams for 12 hours from 13:30 on a Tuesday. Questions
+about it are taken in class only; none are accepted after the class.
+
+- One rule-based strategy, applied unchanged to six stocks (AKBNK, ASELS, TUPRS, TCELL,
+  FROTO, EREGL), 1 January 2025 – 1 October 2026, 100,000 TL initial capital per stock.
+- Every stock has to beat its own benchmark; total portfolio profit does not count.
+- At least 3 completed trades per stock, no look-ahead, at least one risk-management
+  mechanism (stop-loss, ATR stop, trailing stop, maximum holding period, …).
+- You may use or improve the four strategies from the
+  [week 3 slides](resources/2026-2027-fall/week-03-bist-trading-strategies.pdf) — Volume
+  Bubbles, Liquidity Swings, Support & Resistance Channels, Dual-Phase Reversal — or
+  design your own.
+- Submit a Jupyter notebook with code and outputs visible: every buy and sell time and
+  price, profit or loss per trade, trade charts, the required metrics (net profit, final
+  capital, total / winning / losing trades, win rate, maximum drawdown, profit factor,
+  average trade), the benchmark comparison and the final analysis question.
+- **Individual work.** AI tools may assist, but the implementation, decisions and
+  analysis must be your own. Submissions with unusually similar code, parameters, trade
+  sequences, figures or results may be reviewed for academic integrity (an identical
+  final profit alone is not evidence), and you may be asked to explain, justify or
+  modify any part of your code in an individual review.
+
 ## Weekly plan
 
-From the instructor's roadmap in the [week 1 slides](resources/2026-2027-fall/week-01-bist-python-mcp.pdf).
+Weekly topics and links to the instructor material.
+See the [resource guide](resources/2026-2027-fall/README.md) for the slides.
 
 | # | Topic | Note |
 |---|-------|------|
@@ -56,8 +109,8 @@ From the instructor's roadmap in the [week 1 slides](resources/2026-2027-fall/we
 | 2 | Algorithmic Trading and the Agentic Harness | [weeks/02](weeks/02-algorithmic-trading-and-agentic-harness.md) |
 | 3 | Technical Indicators | [weeks/03](weeks/03-technical-indicators.md) |
 | 4 | Backtesting Strategies | [weeks/04](weeks/04-backtesting-strategies.md) |
-| 5 | Time Series with Pandas | [weeks/05](weeks/05-time-series-with-pandas.md) |
-| 6 | Lab: BIST Data | [weeks/06](weeks/06-lab-bist-data.md) |
+| 5 | Engineering Economics Concepts and Computer Engineering Examples | [weeks/05](weeks/05-time-series-with-pandas.md) |
+| 6 | Economic Equivalence | [weeks/06](weeks/06-lab-bist-data.md) |
 | 7 | Lab: Support and Resistance | [weeks/07](weeks/07-lab-support-and-resistance.md) |
 | 8 | Midterm | [weeks/08](weeks/08-midterm.md) |
 | 9 | Engineering Economics Concepts | [weeks/09](weeks/09-engineering-economics-concepts.md) |
@@ -72,12 +125,16 @@ From the instructor's roadmap in the [week 1 slides](resources/2026-2027-fall/we
 **1. Open the week you are on** in [`weeks/`](weeks/): goals, key concepts from the
 slides, readings, and a practice list with the code to run.
 
-**2. Run the code.** Everything in this course is Python — `pip install yfinance pandas
-matplotlib` in a virtual environment and reproduce the slide examples.
+**2. Practise the examples.** For economics, draw the timeline, choose the factor
+and calculate using the table. For financial analytics, use Python —
+`pip install yfinance pandas matplotlib` in a virtual environment and reproduce
+the slide examples.
 
 **3. Start the project early** — it is 30%, more than the midterm, and due November 24.
 
-**4. For the written exams**, the official economics topics are in
+**4. For the midterm**, use the [study guide](exams/midterm-preparation.md) and
+[Lab review](https://akdenizos.org/lab/cse-481/midterm-review.html), including W5–W6
+costs, interest and equivalence. For wider economics background, the official topics are in
 [`syllabus-topics.md`](syllabus-topics.md) with book links at the exact page.
 
 **5. Write under your own `## Notes — <Name> (<term>)` section** at the bottom of each week note — see [Taking notes](#taking-notes).
@@ -111,7 +168,7 @@ course-info.md   Resource map (books, syllabus topic → chapter), Turkish ↔ E
 syllabus-topics.md  The official syllabus's 14 economics topics, with book links
 weeks/NN-*.md    One file per week: the shared plan on top, everyone's notes below
 exams/           Past papers (none collected yet) and how to add one
-resources/       Syllabus PDF, books/, 2026-2027-fall/ (slides, project brief, papers/, code/)
+resources/       Syllabus PDF, books/, 2026-2027-fall/ (slides, project brief, quiz brief, papers/, code/)
 assignments/     Term projects and other own work — including a previous student's project
 ```
 

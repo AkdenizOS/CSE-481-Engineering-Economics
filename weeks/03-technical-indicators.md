@@ -7,7 +7,7 @@
 - A technical event is a timestamped research event: record the market state and the forward return after 1, 3, 5, 10 days.
 
 ## Reading
-- Slides: add when shared on Teams
+- [Week 3 slides — Algorithmic Trading Strategies in BIST](../resources/2026-2027-fall/week-03-bist-trading-strategies.pdf) (Volume Bubbles, Liquidity Swings, Support & Resistance Channels, Dual-Phase Reversal: what market behaviour each one tries to detect)
 - [Term project brief — §7 Technical analysis, §8 Reversal event framework](../resources/2026-2027-fall/term-project-brief.pdf)
 - [Starter code: technical reversal events](../resources/2026-2027-fall/code/scenario3_technical_reversal_events_3_periods.py)
 

@@ -1,13 +1,19 @@
-# Week 5 — Time Series with Pandas
+# Week 5 — Engineering Economics Concepts
 
 **Previous:** [Week 4](04-backtesting-strategies.md) · **Next:** [Week 6](06-lab-bist-data.md)
 
-## Key concepts
+## Instructor material
+
+- [Engineering Economics Analysis](../resources/2026-2027-fall/week-05-engineering-economics-analysis.pdf): life cycle, feasibility, cost categories, TVM, cash-flow diagrams, simple and compound interest.
+- [Computer Engineering Examples](../resources/2026-2027-fall/week-05-engineering-economics-computer-engineers.pdf): cloud/server break-even, sunk/opportunity costs, build/buy and simple payback.
+- These belong in [midterm preparation](../exams/midterm-preparation.md).
+
+## Supplementary practice — Time Series with Pandas
 - Daily and weekly returns, rolling windows, volatility, volume z-scores.
 - Weekday and multi-day sequence labels; multiple-testing risk when searching many patterns.
 
 ## Reading
-- Slides: add when shared on Teams
+- W5 slides: Engineering Economics Analysis and Computer Engineering Examples (above).
 - [Starter code: THYAO weekday patterns](../resources/2026-2027-fall/code/scenario2_thyao_weekday_patterns.py)
 
 ## Checklist

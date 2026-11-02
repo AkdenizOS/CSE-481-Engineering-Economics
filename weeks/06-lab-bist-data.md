@@ -1,9 +1,18 @@
-# Week 6 — Lab: BIST Data
+# Week 6 — Economic Equivalence
 
 **Previous:** [Week 5](05-time-series-with-pandas.md) · **Next:** [Week 7](07-lab-support-and-resistance.md)
 
+## Instructor material
+
+
+[Economic Equivalence](../resources/2026-2027-fall/week-06-economic-equivalence.pdf):
+common comparison date, cash-flow signs, period-end convention, single-payment
+factors, four equal-series factors, beginning/end timing and irregular cash flows.
+Practise choosing the interest-table column and moving deferred series to t=0.
+See the [midterm guide](../exams/midterm-preparation.md).
+
 ## Reading
-- Lab sheet: add when shared on Teams
+- Economic Equivalence slides (above).
 
 ## Checklist
 - [ ] Lecture attended
